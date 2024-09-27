@@ -78,11 +78,11 @@ class Program
         catalog.AddCar(car2);
         catalog.AddCar(car3);
 
-        Console.WriteLine(catalog[0]); // Output: Toyota Camry - V6
-        Console.WriteLine(catalog[1]); // Output: Honda Civic - Inline-4
-        Console.WriteLine(catalog[2]); // Output: Ford Mustang - V8
+        Console.WriteLine(catalog[0]); 
+        Console.WriteLine(catalog[1]); 
+        Console.WriteLine(catalog[2]); 
 
-        Console.WriteLine(car1.Equals(car2)); // Output: False
-        Console.WriteLine(car1.Equals(new Car("Toyota Camry", "V6", 220))); // Output: True
+        Console.WriteLine(car1.Equals(car2));
+        Console.WriteLine(car1.Equals(new Car("Toyota Camry", "V6", 220))); 
     }
 }
